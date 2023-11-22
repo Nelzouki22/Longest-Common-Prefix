@@ -1,1 +1,2 @@
 # Longest-Common-Prefix
+This code defines a function longestCommonPrefix that takes a vector of strings as input and returns the longest common prefix string. The function first checks if the input vector is empty, and if so, it returns an empty string. Otherwise, it initializes a variable prefix to the first string in the vector and iterates over the remaining strings. For each string, it repeatedly shortens the prefix until it is a prefix of the current string. Finally, it returns the shortened prefix.
